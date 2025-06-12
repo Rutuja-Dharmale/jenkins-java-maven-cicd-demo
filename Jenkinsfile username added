@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/YOUR_USERNAME/jenkins-java-maven-cicd-demo.git'
+                git 'https://github.com/Rutuja-Dharmale/jenkins-java-maven-cicd-demo.git'
             }
         }
 
